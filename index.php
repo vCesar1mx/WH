@@ -37,9 +37,9 @@ if (!ini_get('upload_tmp_dir')) {
     $tmp_dir = ini_get('upload_tmp_dir');
 }
 
-if ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
-    ini_set('session.cookie_secure', 'On');
-}
+//if ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') //|| (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && //$_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
+//    ini_set('session.cookie_secure', 'On');
+//}
 
 ini_set('open_basedir', ROOT_PATH . PATH_SEPARATOR  . $tmp_dir . PATH_SEPARATOR . '/proc/stat');
 
