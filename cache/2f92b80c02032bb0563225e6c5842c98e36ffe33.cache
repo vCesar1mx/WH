@@ -1,0 +1,1 @@
+{"enabled_modules":{"time":1644181047,"expire":0,"data":"a:3:{i:0;a:2:{s:4:\"name\";s:4:\"Core\";s:8:\"priority\";i:0;}i:1;a:2:{s:4:\"name\";s:11:\"Infractions\";s:8:\"priority\";i:1;}i:2;a:2:{s:4:\"name\";s:5:\"Forum\";s:8:\"priority\";i:3;}}"},"module_core":{"time":1643660223,"expire":0,"data":"b:1;"},"module_forum":{"time":1643660223,"expire":0,"data":"b:1;"}}
