@@ -2,10 +2,10 @@
 $conf = array (
   'mysql' => 
   array (
-    'host' => 'mc.haliacraft.com',
+    'host' => ''.getenv('host'),
     'port' => '3306',
-    'username' => '',
-    'password' => '',
+    'username' => ''.getenv('user'),
+    'password' => ''.getenv('pass'),
     'db' => 'my_namelessmc',
     'prefix' => 'nl2_',
     'charset' => 'utf8mb4',
